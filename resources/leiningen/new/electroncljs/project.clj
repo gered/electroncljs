@@ -7,13 +7,10 @@
   :license        {:name "MIT License"
                    :url  "http://opensource.org/licenses/MIT"}
 
-  :dependencies   [[cljsjs/bootstrap "3.3.6-1"]
-                   [figwheel ~figwheel-version]
+  :dependencies   [[figwheel ~figwheel-version]
                    [org.clojure/clojure "1.8.0"]
                    [org.clojure/clojurescript "1.9.293"]
-                   [org.webjars/bootstrap "3.3.6"]
-                   [reagent "0.6.0"]
-                   [ring/ring-core "1.5.0"]]
+                   [reagent "0.6.0"]]
 
   :plugins        [[lein-cljsbuild "1.1.4"]
                    [lein-externs "0.1.6"]
