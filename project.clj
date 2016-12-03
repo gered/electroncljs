@@ -1,4 +1,4 @@
-(defproject electroncljs/lein-template "0.1.1"
+(defproject electroncljs/lein-template "0.1.2"
   :description       "Leiningen template for creating Electron apps with ClojureScript"
   :url               "https://github.com/gered/electroncljs"
   :license           {:name "MIT License"
