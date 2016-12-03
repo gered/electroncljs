@@ -3,7 +3,7 @@
 A Leiningen template for [Electron](http://electron.atom.io/) 
 applications written using ClojureScript, Figwheel and Reagent.
 
-This template is based on [descjop](https://github.com/karad/lein_template_descjop).
+This template is originally based on [descjop](https://github.com/karad/lein_template_descjop).
 
 ## Usage
 
@@ -14,11 +14,11 @@ $ lein new electroncljs <your-project-name>
 Then,
 
 ```
-$ cd <your-project-name>/
+$ cd <your-project-name>
 $ lein npm install
 ```
 
-This will download all the required NPM dependencies necessary.
+This will download all required NPM dependencies.
 
 Once complete you can get to work on your app.
 
