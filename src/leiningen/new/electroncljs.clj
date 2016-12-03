@@ -19,7 +19,7 @@
       data
       "app/js"
       "app/img"
-      ["app/css/todos.css"                                 (render "app/css/todos.css")]
+      ["app/css/app.css"                                   (render "app/css/app.css")]
       ["app/index.html"                                    (render "app/index.html" data)]
       ["app/package.json"                                  (render "app/package.json" data)]
       ["env/dev/src/{{root-ns-path}}/config.cljs"          (render "env/dev/src/root_ns/config.cljs" data)]
