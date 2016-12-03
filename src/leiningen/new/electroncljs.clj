@@ -14,7 +14,7 @@
               :root-ns      (t/sanitize-ns name)
               :root-ns-path (t/name-to-path name)
               :year         (.get (GregorianCalendar.) (Calendar/YEAR))}]
-    (main/info "Creating a new ClojureScript Electron project \"" name "\" ...")
+    (main/info (str "Creating a new ClojureScript Electron project \"" name "\" ..."))
     (t/->files
       data
       "app/js"
