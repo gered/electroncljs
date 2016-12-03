@@ -40,7 +40,8 @@
 
   :figwheel       {:nrepl-port       7888
                    :nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]
-                   :builds-to-start  [:front]}
+                   :builds-to-start  [:front]
+                   :css-dirs         ["app/css"]}
 
   :cljsbuild      {:builds
                    {:main
